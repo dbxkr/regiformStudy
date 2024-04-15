@@ -1,0 +1,32 @@
+.regi {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  height: auto;
+  gap: 15px;
+  transform: translate(-50%, -50%);
+  /* background-color: beige; */
+  border: 3px solid black;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  gap: 3px;
+}
+.txt {
+  width: 180px;
+}
+.info {
+  resize: none;
+  border: solid 1px black;
+}
+.buttons {
+  margin-left: auto;
+}
+.must_fill {
+  margin-left: auto;
+  color: red;
+}
